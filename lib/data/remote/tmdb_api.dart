@@ -1,13 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:movies_database_app/domain/entities/movie.dart';
-
 import 'package:retrofit/retrofit.dart';
-import 'package:dio/dio.dart';
-
-import 'package:retrofit/retrofit.dart';
-import 'package:dio/dio.dart';
-
-
 part 'tmdb_api.g.dart';
 @RestApi(baseUrl: "https://api.themoviedb.org/3/")
 abstract class TmdbApi {
